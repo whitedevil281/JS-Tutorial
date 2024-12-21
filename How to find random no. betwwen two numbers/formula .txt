@@ -1,0 +1,3 @@
+if u want to find random no. between a and b then the formula is:
+r =math.random
+a + r (b-a)

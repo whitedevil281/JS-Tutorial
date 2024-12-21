@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    padding: 0;
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    background-color: lightgrey;
+}
+
+.container {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    display: flex;
+    width: auto;
+    height: 15vh;
+    background-color: rgb(15, 15, 15);
+    padding: 8px;
+    border-radius: 10px;
+}
+
+.img {
+    position: relative;
+    height: auto;
+}
+.duration{
+    background-color: rgba(0, 0, 0, 0.644);
+    padding: 2px;
+    position: absolute;
+    color: white   ;
+    right: 5px;
+    bottom: 3px;
+    border-radius: 5px;
+}
+#image {
+    width: 203px;
+    border-radius: 10px;
+}
+
+.right h2 {
+    font-weight: 600;
+    font-size: 20px;
+    color: white;
+}
+
+#heading {
+    padding: 0px 10px;
+}
+
+.subhead ul {
+    display: flex;
+    padding: 0px 15px;
+}
+
+.subhead ul li {
+    list-style-position: inside;
+    margin: 0px 8px;
+    color: lightgrey;
+}
+
+#cname {
+    list-style: none;
+}
+
+li::marker {
+    margin-right: -16px;
+}

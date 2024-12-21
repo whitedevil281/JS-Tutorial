@@ -1,0 +1,32 @@
+body{
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    background-color: lightgrey;
+    width: 30vw;
+    height: 20vh;
+}
+.box {   
+    display: flex;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+    font-size: 34px;
+    margin: 25px;
+}
+
+#btn{
+    font-size: 20px;
+    border-radius: 5px;
+    margin:  0px 120px;
+    cursor: pointer;
+}
+#btn:hover{
+    background-color: beige;
+}
